@@ -20,13 +20,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InputOutput", "InputOutput\InputOutput.csproj", "{62280805-46E5-4ED8-925E-680881A69C88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericTypes", "NumericTypes\NumericTypes.csproj", "{6F464A89-C8FF-4217-9479-7FFB3FF33738}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumericTypes", "NumericTypes\NumericTypes.csproj", "{6F464A89-C8FF-4217-9479-7FFB3FF33738}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GasMileage", "GasMileage\GasMileage.csproj", "{81D64070-6561-4F41-B417-6E453F8581B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GasMileage", "GasMileage\GasMileage.csproj", "{81D64070-6561-4F41-B417-6E453F8581B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alice", "Alice\Alice.csproj", "{DF8E083E-66D1-448C-B197-3923F61886BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alice", "Alice\Alice.csproj", "{DF8E083E-66D1-448C-B197-3923F61886BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaCircle", "AreaCircle\AreaCircle.csproj", "{C81C77E9-9F1D-4046-A5F8-6F750300B8F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaCircle", "AreaCircle\AreaCircle.csproj", "{C81C77E9-9F1D-4046-A5F8-6F750300B8F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumEven", "SumEven\SumEven.csproj", "{4A611F04-7FEB-4BD1-93E3-2962F0971765}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiveLetters", "FiveLetters\FiveLetters.csproj", "{A9E9A15C-AB5A-40D2-BB5B-01FA29ABE6DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutputArray", "OutputArray\OutputArray.csproj", "{68B37941-30FF-4EF3-8075-682279936ACC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RosterDict", "RosterDict\RosterDict.csproj", "{651370A6-05B6-4387-94FC-E9D72A5D9DFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingCharacters", "CountingCharacters\CountingCharacters.csproj", "{38877B7E-4969-4684-B016-7CBEFC01AA3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,6 +96,26 @@ Global
 		{C81C77E9-9F1D-4046-A5F8-6F750300B8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C81C77E9-9F1D-4046-A5F8-6F750300B8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C81C77E9-9F1D-4046-A5F8-6F750300B8F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A611F04-7FEB-4BD1-93E3-2962F0971765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A611F04-7FEB-4BD1-93E3-2962F0971765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A611F04-7FEB-4BD1-93E3-2962F0971765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A611F04-7FEB-4BD1-93E3-2962F0971765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E9A15C-AB5A-40D2-BB5B-01FA29ABE6DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E9A15C-AB5A-40D2-BB5B-01FA29ABE6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E9A15C-AB5A-40D2-BB5B-01FA29ABE6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E9A15C-AB5A-40D2-BB5B-01FA29ABE6DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B37941-30FF-4EF3-8075-682279936ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B37941-30FF-4EF3-8075-682279936ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B37941-30FF-4EF3-8075-682279936ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B37941-30FF-4EF3-8075-682279936ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651370A6-05B6-4387-94FC-E9D72A5D9DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651370A6-05B6-4387-94FC-E9D72A5D9DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651370A6-05B6-4387-94FC-E9D72A5D9DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651370A6-05B6-4387-94FC-E9D72A5D9DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38877B7E-4969-4684-B016-7CBEFC01AA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38877B7E-4969-4684-B016-7CBEFC01AA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38877B7E-4969-4684-B016-7CBEFC01AA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38877B7E-4969-4684-B016-7CBEFC01AA3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
